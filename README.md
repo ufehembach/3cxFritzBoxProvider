@@ -3,7 +3,7 @@ this is a try for an provider template for 3cx v20 to connect to a FritzBox with
 
 following: https://www.youtube.com/watch?v=IRWZ7Ev4yYU (thanks at this point), I modified the following
 
-<code>
+
       <!--<field name="ParameterOut" custom="" parameter="ContactUser">$OutboundCallerId</field>-->
       <field name="ParameterOut" custom="" parameter="ContactUser">$AuthID</field>
       
@@ -11,4 +11,4 @@ following: https://www.youtube.com/watch?v=IRWZ7Ev4yYU (thanks at this point), I
       <field name="ParameterOut" custom="" parameter="FromDisplayName">$OriginatorCallerId</field>
       <!--<field name="ParameterOut" custom="" parameter="FromUserPart">$OutboundCallerId</field>-->
       <field name="ParameterOut" custom="" parameter="FromUserPart">$AuthID</field>
-</code>
+
